@@ -13,7 +13,7 @@ pipeline {
 
         stage("Checkout from SCM") {
                steps {
-                   git branch: 'main', credentialsId: 'github', url: 'https://github.com/gowdrr001/gitops-register-app.git'
+                   git branch: 'main', credentialsId: 'gowdrr001', url: 'https://github.com/gowdrr001/gitops-register-app.git'
                }
         }
 
